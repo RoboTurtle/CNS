@@ -29,7 +29,7 @@ Now we can be on our host machine and go to 127.0.0.1:4567 and access our webser
 ![Screenshot showing the initial index of the website.](https://github.com/RoboTurtle/CNS/assets/70544712/340aae61-b569-4140-8be9-996d0026389c)
 ![Screenshot showing the contents of the Homework_1.html file on the website](https://github.com/RoboTurtle/CNS/assets/70544712/ea024ca9-3de5-4d49-9fd9-b0d9302accbe)
 
-
-
+## The vagrant shell provisioner
+The Vagrant Shell provisioner is a technology used to automate the configuration and setup of virtual machines managed by Vagrant. It operates by executing shell scripts on the guest virtual machine during provisioning. It utilizes shell script files and these scripts are plain text files. They do not have a specific file extension requirement, although conventionally, they often have a .sh extension on Unix-like systems. These scripts are typically written in shell scripting languages like Bash and are used to install software, configure system settings, or perform other tasks necessary for the VM's intended purpose. The provisioner allows users to define custom provisioning scripts in their Vagrantfile, ensuring that specific configurations and software installations are applied consistently to virtual machines, thereby streamlining development and testing workflows.
 
 
