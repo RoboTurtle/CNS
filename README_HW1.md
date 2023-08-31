@@ -16,5 +16,8 @@ In our Vagrantfile file, we added the line config.vm.provision :shell, path: "bo
 We use the vagrant up command to create and automatically provision our machine and then we verify that the provisioning worked by loading a file from within the machine.
 ![Screenshot showing that the provisioning worked.](<img width="960" alt="wget_ss" src="https://github.com/RoboTurtle/CNS/assets/70544712/ca13402a-f1d8-4c2e-b005-328b4a804012">)
 ## Configure Network
+For this tutorial, we will be using avaliable networking features in order to access the website hosted from the guest machine on the host machine.  
+The prerequisites for this will be that the previous tutorial was completed.
+#####
 
 
