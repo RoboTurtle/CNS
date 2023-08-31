@@ -18,6 +18,9 @@ We use the vagrant up command to create and automatically provision our machine 
 ## Configure Network
 For this tutorial, we will be using avaliable networking features in order to access the website hosted from the guest machine on the host machine.  
 The prerequisites for this will be that the previous tutorial was completed.
-#####
+##### Configure port forwarding
+With port forwarding, it will allow us to specify ports on the guest machine so that we can share it with our host machine.  This would allow us to access the port on the guest machine directly from our host machine without the need to ssh into the guest machine.  In order to do this we must add a config.wm.network line to our code in the Vagrantfile file.
+![Screenshot showing the added config.wm.network line of code.](https://github.com/RoboTurtle/CNS/assets/70544712/65817dfa-f28b-4372-b957-32723e33bcfd)
+
 
 
