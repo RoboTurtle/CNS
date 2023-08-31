@@ -24,6 +24,12 @@ The prerequisites for this will be that the previous tutorial was completed.
 ##### Configure port forwarding
 With port forwarding, it will allow us to specify ports on the guest machine so that we can share it with our host machine.  This would allow us to access the port on the guest machine directly from our host machine without the need to ssh into the guest machine.  In order to do this we must add a config.wm.network line to our code in the Vagrantfile file.
 ![Screenshot showing the added config.wm.network line of code.](https://github.com/RoboTurtle/CNS/assets/70544712/65817dfa-f28b-4372-b957-32723e33bcfd)
+##### Access the served files
+Now we can be on our host machine and go to 127.0.0.1:4567 and access our webserver.
+![Screenshot showing the initial index of the website.](https://github.com/RoboTurtle/CNS/assets/70544712/340aae61-b569-4140-8be9-996d0026389c)
+![Screenshot showing the contents of the Homework_1.html file on the website](https://github.com/RoboTurtle/CNS/assets/70544712/ea024ca9-3de5-4d49-9fd9-b0d9302accbe)
+
+
 
 
 
