@@ -13,4 +13,8 @@ character set and collation, port mapping, and more.  What makes the mySQL docke
 containers are highly configurable through environment variables, making it possible to set up databases, users, and passwords 
 during container initialization. This level of configuration is unique to database containers and differs from stateless application containers.
 
-#### 
+#### Python
+Next I looked at python considering I am currently taking CML and the class involves coding in python so I was curious.  It builds an environment
+ideal to code in python.  The organization behind the container is the Python Software Foundation.  When it comes to associated options, python has
+the option for choosing the python base image, installing dependencies, setting environemnt variables, among other options.  WHat makes it unique is
+that it specifically sets up an environment ideal for python usage, including things such as package managemnt, version control, and python frameworks.
